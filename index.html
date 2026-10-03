@@ -1,1 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>LUXÉRA — Modern Fashion</title>
+
+    <meta
+        name="description"
+        content="LUXÉRA — Contemporary fashion for modern living."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================
+     TOP BAR
+========================= -->
+
+<div class="top-bar">
+    <p>FREE SHIPPING ON ORDERS OVER ₹2,999</p>
+</div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar" id="navbar">
+
+    <div class="nav-left">
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <nav class="desktop-nav">
+            <a href="#new">New In</a>
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
+            <a href="#accessories">Accessories</a>
+            <a href="#collections">Collections</a>
+        </nav>
+
+    </div>
+
+
+    <a href="#" class="logo">
+        LUXÉRA
+    </a>
+
+
+    <div class="nav-actions">
+
+        <button class="icon-btn" id="searchBtn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <button class="icon-btn desktop-only">
+            <i class="fa-regular fa-user"></i>
+        </button>
+
+        <button class="icon-btn" id="wishlistBtn">
+            <i class="fa-regular fa-heart"></i>
+            <span class="counter" id="wishlistCount">0</span>
+        </button>
+
+        <button class="icon-btn" id="cartBtn">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="counter" id="cartCount">0</span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     MOBILE MENU
+========================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <button class="close-mobile" id="closeMobile">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <a href="#new">New In</a>
+    <a href="#women">Women</a>
+    <a href="#men">Men</a>
+    <a href="#accessories">Accessories</a>
+    <a href="#collections">Collections</a>
+
+</div>
+
+
+<!-- =========================
+     SEARCH OVERLAY
+========================= -->
+
+<div class="search-overlay" id="searchOverlay">
+
+    <button class="close-search" id="closeSearch">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="search-box">
+
+        <span>SEARCH LUXÉRA</span>
+
+        <div class="search-input-wrap">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search dresses, shirts, bags..."
+            >
+
+            <button id="searchSubmit">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <p id="searchMessage">
+            Explore our latest collection.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-image"></div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            AUTUMN / WINTER 2026
+        </p>
+
+        <h1>
+            Dressed for<br>
+            <em>your moment.</em>
+        </h1>
+
+        <p class="hero-description">
+            Refined silhouettes, effortless layers and
+            timeless pieces designed for the way you live now.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#new" class="btn btn-light">
+                Shop Women
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#new" class="btn btn-outline-light">
+                Explore Collection
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+        <span>SCROLL TO EXPLORE</span>
+        <div></div>
+    </div>
+
+</section>
+
+
+<!-- =========================
+     INTRO
+========================= -->
+
+<section class="intro section">
+
+    <div class="section-label">
+        <span>01</span>
+        THE LUXÉRA EDIT
+    </div>
+
+    <div class="intro-content">
+
+        <h2>
+            Modern essentials,
+            <em>made memorable.</em>
+        </h2>
+
+        <p>
+            LUXÉRA creates elevated wardrobe pieces that sit
+            between everyday ease and modern luxury. Designed
+            with intention, made to stay.
+        </p>
+
+        <a href="#new" class="text-link">
+            Discover the edit
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CATEGORY CARDS
+========================= -->
+
+<section class="categories section" id="collections">
+
+    <div class="section-heading">
+
+        <div>
+            <span class="small-title">SHOP THE WORLD</span>
+            <h2>Find your <em>style.</em></h2>
+        </div>
+
+        <p>
+            Curated pieces for every version of you.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <a href="#women" class="category-card large">
+
+            <img
+                src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=85"
+                alt="Women's fashion"
+            >
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>01</span>
+                <h3>Women</h3>
+                <p>Explore collection →</p>
+            </div>
+
+        </a>
+
+
+        <a href="#men" class="category-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=85"
+                alt="Men's fashion"
+            >
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>02</span>
+                <h3>Men</h3>
+                <p>Explore collection →</p>
+            </div>
+
+        </a>
+
+
+        <a href="#accessories" class="category-card">
+
+            <img
+                src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=85"
+                alt="Fashion accessories"
+            >
+
+            <div class="category-overlay"></div>
+
+            <div class="category-content">
+                <span>03</span>
+                <h3>Accessories</h3>
+                <p>Explore collection →</p>
+            </div>
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PRODUCTS
+========================= -->
+
+<section class="products-section section" id="new">
+
+    <div class="products-header">
+
+        <div>
+
+            <span class="small-title">
+                NEW SEASON
+            </span>
+
+            <h2>
+                The latest <em>edit.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="filters">
+
+            <button
+                class="filter-btn active"
+                data-filter="all"
+            >
+                All
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="women"
+            >
+                Women
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="men"
+            >
+                Men
+            </button>
+
+            <button
+                class="filter-btn"
+                data-filter="accessories"
+            >
+                Accessories
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="product-grid" id="productGrid">
+
+        <!-- PRODUCT 1 -->
+
+        <article
+            class="product-card"
+            data-category="women"
+            data-name="Satin Slip Dress"
+            data-price="4290"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=85"
+                    alt="Satin Slip Dress"
+                >
+
+                <span class="product-tag">
+                    NEW
+                </span>
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Satin Slip Dress</h3>
+
+                    <p>Silk-touch finish</p>
+
+                </div>
+
+                <strong>₹4,290</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 2 -->
+
+        <article
+            class="product-card"
+            data-category="women"
+            data-name="Structured Blazer"
+            data-price="5890"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?auto=format&fit=crop&w=900&q=85"
+                    alt="Structured Blazer"
+                >
+
+                <span class="product-tag">
+                    EDITOR'S PICK
+                </span>
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Structured Blazer</h3>
+
+                    <p>Relaxed tailoring</p>
+
+                </div>
+
+                <strong>₹5,890</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 3 -->
+
+        <article
+            class="product-card"
+            data-category="men"
+            data-name="Relaxed Linen Shirt"
+            data-price="3190"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=85"
+                    alt="Linen Shirt"
+                >
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Relaxed Linen Shirt</h3>
+
+                    <p>Premium linen</p>
+
+                </div>
+
+                <strong>₹3,190</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 4 -->
+
+        <article
+            class="product-card"
+            data-category="accessories"
+            data-name="Leather Shoulder Bag"
+            data-price="6490"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=85"
+                    alt="Leather Shoulder Bag"
+                >
+
+                <span class="product-tag">
+                    LIMITED
+                </span>
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Leather Shoulder Bag</h3>
+
+                    <p>Italian-inspired leather</p>
+
+                </div>
+
+                <strong>₹6,490</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 5 -->
+
+        <article
+            class="product-card"
+            data-category="women"
+            data-name="Minimal Black Dress"
+            data-price="4590"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=900&q=85"
+                    alt="Black Dress"
+                >
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Minimal Black Dress</h3>
+
+                    <p>Signature silhouette</p>
+
+                </div>
+
+                <strong>₹4,590</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 6 -->
+
+        <article
+            class="product-card"
+            data-category="men"
+            data-name="Modern Wool Coat"
+            data-price="7290"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=900&q=85"
+                    alt="Modern Wool Coat"
+                >
+
+                <span class="product-tag">
+                    NEW
+                </span>
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Modern Wool Coat</h3>
+
+                    <p>Heavyweight wool blend</p>
+
+                </div>
+
+                <strong>₹7,290</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 7 -->
+
+        <article
+            class="product-card"
+            data-category="accessories"
+            data-name="Sculptural Sunglasses"
+            data-price="2490"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=85"
+                    alt="Sunglasses"
+                >
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Sculptural Sunglasses</h3>
+
+                    <p>UV400 lenses</p>
+
+                </div>
+
+                <strong>₹2,490</strong>
+
+            </div>
+
+        </article>
+
+
+        <!-- PRODUCT 8 -->
+
+        <article
+            class="product-card"
+            data-category="women"
+            data-name="Soft Knit Set"
+            data-price="3990"
+        >
+
+            <div class="product-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?auto=format&fit=crop&w=900&q=85"
+                    alt="Knit Set"
+                >
+
+                <span class="product-tag">
+                    BESTSELLER
+                </span>
+
+                <button class="wishlist-product">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+                <button class="quick-view">
+                    QUICK VIEW
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <div>
+
+                    <h3>Soft Knit Set</h3>
+
+                    <p>Cashmere-touch knit</p>
+
+                </div>
+
+                <strong>₹3,990</strong>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EDITORIAL BANNER
+========================= -->
+
+<section class="editorial">
+
+    <div class="editorial-image">
+
+        <img
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1600&q=90"
+            alt="LUXÉRA editorial"
+        >
+
+    </div>
+
+    <div class="editorial-content">
+
+        <span class="small-title">
+            THE ART OF LESS
+        </span>
+
+        <h2>
+            Style doesn't<br>
+            need to <em>shout.</em>
+        </h2>
+
+        <p>
+            We believe the most powerful wardrobe is the one
+            that feels unmistakably yours.
+        </p>
+
+        <a href="#new" class="btn btn-dark">
+            Shop the story
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURES
+========================= -->
+
+<section class="features section">
+
+    <div class="feature">
+
+        <i class="fa-solid fa-box-open"></i>
+
+        <h3>Thoughtful Packaging</h3>
+
+        <p>
+            Every order arrives beautifully prepared.
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <i class="fa-solid fa-leaf"></i>
+
+        <h3>Conscious Materials</h3>
+
+        <p>
+            Better fabrics, considered production.
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <i class="fa-solid fa-arrows-rotate"></i>
+
+        <h3>Easy Returns</h3>
+
+        <p>
+            Simple 14-day return policy.
+        </p>
+
+    </div>
+
+
+    <div class="feature">
+
+        <i class="fa-solid fa-headset"></i>
+
+        <h3>Personal Support</h3>
+
+        <p>
+            Our team is here whenever you need us.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     NEWSLETTER
+========================= -->
+
+<section class="newsletter">
+
+    <div>
+
+        <span class="small-title">
+            STAY IN THE KNOW
+        </span>
+
+        <h2>
+            Get the <em>good stuff.</em>
+        </h2>
+
+        <p>
+            New drops, private edits and style notes —
+            straight to your inbox.
+        </p>
+
+    </div>
+
+
+    <form id="newsletterForm">
+
+        <input
+            type="email"
+            id="emailInput"
+            placeholder="Your email address"
+            required
+        >
+
+        <button type="submit">
+            JOIN
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </form>
+
+    <p class="newsletter-message" id="newsletterMessage"></p>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="#" class="footer-logo">
+                LUXÉRA
+            </a>
+
+            <p>
+                Contemporary fashion,
+                thoughtfully made.
+            </p>
+
+            <div class="socials">
+
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>SHOP</h4>
+
+            <a href="#women">Women</a>
+            <a href="#men">Men</a>
+            <a href="#accessories">Accessories</a>
+            <a href="#new">New Arrivals</a>
+            <a href="#new">Best Sellers</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>HELP</h4>
+
+            <a href="#">Shipping & Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">Size Guide</a>
+            <a href="#">FAQs</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>ABOUT</h4>
+
+            <a href="#">Our Story</a>
+            <a href="#">Journal</a>
+            <a href="#">Sustainability</a>
+            <a href="#">Stores</a>
+            <a href="#">Careers</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 LUXÉRA. All rights reserved.
+        </p>
+
+        <div>
+
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     CART DRAWER
+========================= -->
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<aside class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+        <div>
+            <span>YOUR BAG</span>
+            <h2>Shopping Bag</h2>
+        </div>
+
+        <button id="closeCart">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+
+    <div class="cart-items" id="cartItems">
+
+        <div class="empty-cart">
+
+            <i class="fa-solid fa-bag-shopping"></i>
+
+            <h3>Your bag is empty</h3>
+
+            <p>
+                Add something beautiful to get started.
+            </p>
+
+            <button id="startShopping">
+                START SHOPPING
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+
+        <div class="subtotal">
+
+            <span>Subtotal</span>
+
+            <strong id="cartTotal">
+                ₹0
+            </strong>
+
+        </div>
+
+        <p>
+            Shipping calculated at checkout.
+        </p>
+
+        <button class="checkout-btn" id="checkoutBtn">
+            CHECKOUT
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+</aside>
+
+
+<!-- =========================
+     QUICK VIEW MODAL
+========================= -->
+
+<div class="modal-overlay" id="quickModal">
+
+    <div class="quick-modal">
+
+        <button class="modal-close" id="closeModal">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="quick-image">
+
+            <img id="modalImage" src="" alt="Product">
+
+        </div>
+
+        <div class="quick-info">
+
+            <span class="small-title">
+                LUXÉRA EDIT
+            </span>
+
+            <h2 id="modalName">
+                Product
+            </h2>
+
+            <strong id="modalPrice">
+                ₹0
+            </strong>
+
+            <p>
+                Designed with a contemporary silhouette,
+                premium materials and effortless everyday appeal.
+            </p>
+
+            <div class="size-title">
+                SELECT SIZE
+            </div>
+
+            <div class="sizes">
+
+                <button>S</button>
+                <button>M</button>
+                <button>L</button>
+                <button>XL</button>
+
+            </div>
+
+            <button class="modal-add" id="modalAdd">
+                ADD TO BAG
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     TOAST
+========================= -->
+
+<div class="toast" id="toast">
+    <i class="fa-solid fa-check"></i>
+    <span>Added to bag</span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
